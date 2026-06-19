@@ -92,3 +92,23 @@ li:last-child {
   color: #d32f2f;
   font-weight: bold;
 }
+
+/* Priority buttons */
+.priority-btn {
+  background-color: #7A7A7A; /* unselected */
+  color: white;
+  font-weight: 700;
+}
+
+.priority-btn.selected {
+  background-color: #07F2E6; /* selected */
+  color: white;
+}
+
+.priority-btn:hover {
+  background-color: #9E9E9E;
+}
+
+.priority-btn.selected:hover {
+  background-color: #05D4CB;
+}
